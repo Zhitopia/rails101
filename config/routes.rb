@@ -1,3 +1,4 @@
-Rails.application.routes.draw do
-  root 'welcome#index'
+RRails.application.routes.draw do
+   resources :groups
+   root 'welcome#index'
 end
